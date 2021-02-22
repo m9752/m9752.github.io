@@ -64,85 +64,271 @@
       
       
       
-      }</script><link rel="icon" href="/favicon-32x32.png?v=08d1167632bb288cc6b3d20157af049c" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=08d1167632bb288cc6b3d20157af049c"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=08d1167632bb288cc6b3d20157af049c"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=08d1167632bb288cc6b3d20157af049c"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=08d1167632bb288cc6b3d20157af049c"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=08d1167632bb288cc6b3d20157af049c"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=08d1167632bb288cc6b3d20157af049c"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=08d1167632bb288cc6b3d20157af049c"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=08d1167632bb288cc6b3d20157af049c"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><title data-react-helmet="true">Jenkins 설정 | dev memo</title><meta data-react-helmet="true" name="description" content="Jenkins 설정 설정 1. Jenkins 버전 업데이트 docker 실행 시 플러그인 설치가 오류나는 경우가 잦음 😥 최신 버전으로 업데이트 필요하다 😑 수동으로 업데이트 : https://ocblog.tistory.com/m/71?category=395154 최신 jenkins.war 파일로 교체 작업 2. JDK, Maven 설정 Jenkins 관리 &gt; Global Tool Configuration Maven : 버전 선택하여 자동 설치 가능함 JDK는 9버전까지만 가능한듯 JDK…"/><meta data-react-helmet="true" property="og:title" content="Jenkins 설정"/><meta data-react-helmet="true" property="og:description" content="Jenkins 설정 설정 1. Jenkins 버전 업데이트 docker 실행 시 플러그인 설치가 오류나는 경우가 잦음 😥 최신 버전으로 업데이트 필요하다 😑 수동으로 업데이트 : https://ocblog.tistory.com/m/71?category=395154 최신 jenkins.war 파일로 교체 작업 2. JDK, Maven 설정 Jenkins 관리 &gt; Global Tool Configuration Maven : 버전 선택하여 자동 설치 가능함 JDK는 9버전까지만 가능한듯 JDK…"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"/><meta data-react-helmet="true" name="twitter:creator" content="[m9752]"/><meta data-react-helmet="true" name="twitter:title" content="Jenkins 설정"/><meta data-react-helmet="true" name="twitter:description" content="Jenkins 설정 설정 1. Jenkins 버전 업데이트 docker 실행 시 플러그인 설치가 오류나는 경우가 잦음 😥 최신 버전으로 업데이트 필요하다 😑 수동으로 업데이트 : https://ocblog.tistory.com/m/71?category=395154 최신 jenkins.war 파일로 교체 작업 2. JDK, Maven 설정 Jenkins 관리 &gt; Global Tool Configuration Maven : 버전 선택하여 자동 설치 가능함 JDK는 9버전까지만 가능한듯 JDK…"/><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><link as="script" rel="preload" href="/webpack-runtime-1a45db10a31038613b44.js"/><link as="script" rel="preload" href="/framework-305b3707783ccc9d7ca6.js"/><link as="script" rel="preload" href="/app-08c1c683ee6df38e6946.js"/><link as="script" rel="preload" href="/styles-e9d24b1846c7d6eb9685.js"/><link as="script" rel="preload" href="/133dca110fad53aa1997b630637bbac3134a2d14-f562d7f1c03409df0e50.js"/><link as="script" rel="preload" href="/d5d7a013bc6c1e2b6d7db819052c16d7efea5559-5e88269b7626fe527ea5.js"/><link as="script" rel="preload" href="/cd7d5f864fc9e15ed8adef086269b0aeff617554-5bdfcd6b4cc6dfd45a0e.js"/><link as="script" rel="preload" href="/component---src-templates-blog-post-js-918c6e894fd53eabf01e.js"/><link as="fetch" rel="preload" href="/page-data\development\jenkins 설정\page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/3128451518.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/521680639.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data\app-data.json" crossorigin="anonymous"/></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="top"><a class="link" href="/">dev memo</a><a href="https://github.com/m9752/" class="github" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path></svg></a></div><div style="margin-left:auto;margin-right:auto;max-width:39rem;padding:2.4375rem 1.21875rem"><div class="switch-container"><label for="normal-switch"><div style="position:relative;display:inline-block;text-align:left;opacity:1;direction:ltr;border-radius:12px;-webkit-transition:opacity 0.25s;-moz-transition:opacity 0.25s;transition:opacity 0.25s;touch-action:none;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none"><div class="react-switch-bg" style="height:24px;width:48px;margin:0;position:relative;background:#d9dfe2;border-radius:12px;cursor:pointer;-webkit-transition:background 0.25s;-moz-transition:background 0.25s;transition:background 0.25s"><div style="height:24px;width:26px;position:relative;opacity:0;pointer-events:none;-webkit-transition:opacity 0.25s;-moz-transition:opacity 0.25s;transition:opacity 0.25s"><div class="icon checkedIcon"><svg width="24" height="24"><rect width="24" height="24" fill="none" rx="0" ry="0"></rect><path fill-rule="evenodd" clip-rule="evenodd" d="M14.8102 3.2H13.8202C13.4902 3.2 13.2302 2.93 13.2302 2.6C13.2302 2.27 13.5002 2 13.8302 2H16.2602C16.5002 2 16.7202 2.15 16.8102 2.37C16.9002 2.59 16.8502 2.85 16.6802 3.02L15.2702 4.43H16.2602C16.5902 4.43 16.8602 4.7 16.8602 5.03C16.8602 5.36 16.5902 5.63 16.2602 5.63H13.8202C13.5802 5.63 13.3602 5.48 13.2702 5.26C13.1802 5.04 13.2302 4.78 13.4002 4.61L14.8102 3.2ZM20.1401 11.0101H21.1301C21.4601 11.0101 21.7401 11.2801 21.7401 11.6101C21.7401 11.9401 21.4701 12.2101 21.1401 12.2101H18.7001C18.4601 12.2101 18.2401 12.0601 18.1501 11.8401C18.0601 11.6201 18.1101 11.3601 18.2801 11.1901L19.6901 9.78008H18.7001C18.3701 9.78008 18.1001 9.51008 18.1001 9.18008C18.1001 8.85008 18.3701 8.58008 18.7001 8.58008H21.1301C21.3701 8.58008 21.5901 8.73008 21.6801 8.95008C21.7701 9.17008 21.7201 9.43008 21.5501 9.60008L20.1401 11.0101ZM11.0302 9.8499H12.8502L10.7002 11.9999C10.5302 12.1699 10.4802 12.4299 10.5702 12.6499C10.6602 12.8699 10.8802 13.0199 11.1202 13.0199H14.2902C14.6202 13.0199 14.8902 12.7499 14.8902 12.4199C14.8902 12.0899 14.6202 11.8199 14.2902 11.8199H12.5602L14.7102 9.6699C14.8802 9.4999 14.9302 9.2399 14.8402 9.0199C14.7502 8.7999 14.5302 8.6499 14.2902 8.6499H11.0202C10.6902 8.6499 10.4202 8.9199 10.4202 9.2499C10.4202 9.5799 10.7002 9.8499 11.0302 9.8499ZM14.5501 16.89C15.6601 16.89 16.7201 16.66 17.7101 16.19C17.9401 16.08 18.2101 16.13 18.3801 16.3C18.5601 16.48 18.6101 16.75 18.5001 16.98C17.0901 20.05 13.9901 22.03 10.6001 22.03C5.79013 22.03 1.88013 18.12 1.88013 13.31C1.88013 9.94004 3.87013 6.84004 6.93013 5.40004C7.16013 5.29004 7.43012 5.34004 7.61012 5.52004C7.79012 5.70004 7.84013 5.97004 7.73013 6.20004C7.27013 7.19004 7.03012 8.26004 7.03012 9.38004C7.03012 13.52 10.4001 16.89 14.5501 16.89ZM3.09013 13.31C3.09013 17.46 6.46012 20.83 10.6101 20.83C12.9901 20.83 15.2001 19.7 16.6001 17.85C15.9401 18.01 15.2501 18.09 14.5501 18.09C9.74013 18.09 5.83012 14.18 5.83012 9.38004C5.83012 8.68004 5.91013 7.99004 6.07013 7.32004C4.22013 8.73004 3.09013 10.94 3.09013 13.31Z"></path></svg></div></div><div style="height:24px;width:26px;position:absolute;opacity:1;right:0;top:0;pointer-events:none;-webkit-transition:opacity 0.25s;-moz-transition:opacity 0.25s;transition:opacity 0.25s"><div class="icon uncheckedIcon"><svg width="24" height="24"><rect width="24" height="24" fill="none" rx="0" ry="0"></rect><path fill-rule="evenodd" clip-rule="evenodd" d="M12.7488 5.67224C13.1057 5.67298 13.3958 5.38416 13.3965 5.0271C13.3973 4.67005 13.1084 4.37989 12.7515 4.37915C12.3943 4.37842 12.1043 4.66724 12.1035 5.02442C12.1028 5.38135 12.3916 5.67151 12.7488 5.67224ZM9.39535 6.57153C9.70504 6.39355 9.81173 5.99841 9.63388 5.68884C9.45602 5.37914 9.06076 5.27245 8.75119 5.45031C8.44162 5.62817 8.3348 6.02343 8.51266 6.333C8.69064 6.64257 9.08578 6.74926 9.39535 6.57153ZM6.94091 9.02688C6.76171 9.33571 6.3662 9.44094 6.05736 9.26174C5.74852 9.08254 5.6433 8.68691 5.8225 8.37807C6.0017 8.06923 6.39733 7.96413 6.70617 8.14333C7.015 8.32253 7.12011 8.71804 6.94091 9.02688ZM6.04309 12.3806C6.04383 12.0234 5.75501 11.7334 5.39795 11.7327C5.0409 11.7319 4.75074 12.0208 4.75 12.3779C4.74927 12.7349 5.03809 13.0249 5.39527 13.0256C5.7522 13.0265 6.04236 12.7376 6.04309 12.3806ZM5.82116 16.3781C5.6433 16.0684 5.74999 15.6734 6.05968 15.4954C6.36925 15.3176 6.7644 15.4244 6.94237 15.734C7.12023 16.0435 7.01342 16.4388 6.70385 16.6165C6.39428 16.7945 5.99902 16.6877 5.82116 16.3781ZM9.39773 18.1882C9.08889 18.0091 8.69338 18.1142 8.51418 18.423C8.33498 18.7319 8.44008 19.1275 8.74892 19.3067C9.05776 19.4858 9.45339 19.3808 9.63259 19.072C9.81179 18.7631 9.70656 18.3674 9.39773 18.1882ZM12.1035 19.7313C12.1043 19.3743 12.3943 19.0855 12.7515 19.0862C13.1084 19.0869 13.3973 19.377 13.3965 19.7341C13.3958 20.0911 13.1057 20.3799 12.7488 20.3792C12.3916 20.3784 12.1028 20.0884 12.1035 19.7313ZM16.1047 18.1869C15.7951 18.3647 15.6883 18.7599 15.8662 19.0695C16.0442 19.3791 16.4392 19.4859 16.7489 19.308C17.0584 19.1302 17.1652 18.735 16.9873 18.4255C16.8095 18.1158 16.4143 18.009 16.1047 18.1869ZM18.559 15.7315C18.7382 15.4227 19.134 15.3177 19.4428 15.4969C19.7516 15.676 19.8566 16.0716 19.6775 16.3804C19.4983 16.6893 19.1027 16.7945 18.7939 16.6153C18.485 16.4361 18.3799 16.0403 18.559 15.7315ZM20.105 11.7327C19.7478 11.7319 19.4578 12.0208 19.457 12.3779C19.4563 12.7349 19.7451 13.0249 20.1022 13.0256C20.4592 13.0265 20.7493 12.7376 20.75 12.3806C20.7507 12.0234 20.4619 11.7334 20.105 11.7327ZM19.679 8.38046C19.8569 8.69003 19.75 9.08529 19.4405 9.26315C19.1309 9.44101 18.7356 9.33432 18.5579 9.02462C18.3799 8.71505 18.4867 8.31991 18.7964 8.14193C19.106 7.96408 19.5011 8.07089 19.679 8.38046ZM16.1022 6.57006C16.4111 6.74926 16.8068 6.64415 16.986 6.33532C17.1652 6.02648 17.06 5.63085 16.7512 5.45165C16.4423 5.27245 16.0467 5.37767 15.8676 5.68651C15.6884 5.99535 15.7934 6.39086 16.1022 6.57006ZM8.26319 12.3795C8.26319 9.90466 10.2761 7.8916 12.75 7.8916C15.2249 7.8916 17.2379 9.90466 17.2379 12.3795C17.2379 14.8534 15.2249 16.8663 12.75 16.8663C10.2761 16.8663 8.26319 14.8534 8.26319 12.3795ZM9.5553 12.3795C9.5553 14.141 10.9885 15.5741 12.75 15.5741C14.5115 15.5741 15.9458 14.141 15.9458 12.3795C15.9458 10.618 14.5115 9.18372 12.75 9.18372C10.9885 9.18372 9.5553 10.618 9.5553 12.3795Z"></path></svg></div></div></div><div class="react-switch-handle" style="height:22px;width:22px;background:#ffffff;display:inline-block;cursor:pointer;border-radius:50%;position:absolute;transform:translateX(1px);top:1px;outline:0;border:0;-webkit-transition:background-color 0.25s, transform 0.25s, box-shadow 0.15s;-moz-transition:background-color 0.25s, transform 0.25s, box-shadow 0.15s;transition:background-color 0.25s, transform 0.25s, box-shadow 0.15s"></div><input type="checkbox" role="switch" style="border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px" id="normal-switch"/></div></label></div><h1>Jenkins 설정</h1><p class="post-date">February 20, 2021</p><div><h1 id="jenkins-설정" style="position:relative;"><a href="#jenkins-%EC%84%A4%EC%A0%95" aria-label="jenkins 설정 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Jenkins 설정</h1>
+      }</script><link rel="icon" href="/favicon-32x32.png?v=08d1167632bb288cc6b3d20157af049c" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=08d1167632bb288cc6b3d20157af049c"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=08d1167632bb288cc6b3d20157af049c"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=08d1167632bb288cc6b3d20157af049c"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=08d1167632bb288cc6b3d20157af049c"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=08d1167632bb288cc6b3d20157af049c"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=08d1167632bb288cc6b3d20157af049c"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=08d1167632bb288cc6b3d20157af049c"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=08d1167632bb288cc6b3d20157af049c"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><title data-react-helmet="true">Jenkins 설정 | dev memo</title><meta data-react-helmet="true" name="description" content="Jenkins 설정 빌드/배포에 활용할 Jenkins를 설정합니다. 설정 1. Jenkins 버전 업데이트 docker로 설치 시 플러그인 설치가 제대로 되지 않는 경우가 많습니다. 😥 이런 경우에는 Jenkins를 최신 버전으로 업데이트 해줍니다.  docker로 Jenkins 설치 후, 최근 버전의 jenkins.war 를 다운 받아 수동으로 업데이트 해줍니다. 자세한 방법은 아래 링크를 참조하세요. https://ocblog.tistory.com/m/71?category=395154…"/><meta data-react-helmet="true" property="og:title" content="Jenkins 설정"/><meta data-react-helmet="true" property="og:description" content="Jenkins 설정 빌드/배포에 활용할 Jenkins를 설정합니다. 설정 1. Jenkins 버전 업데이트 docker로 설치 시 플러그인 설치가 제대로 되지 않는 경우가 많습니다. 😥 이런 경우에는 Jenkins를 최신 버전으로 업데이트 해줍니다.  docker로 Jenkins 설치 후, 최근 버전의 jenkins.war 를 다운 받아 수동으로 업데이트 해줍니다. 자세한 방법은 아래 링크를 참조하세요. https://ocblog.tistory.com/m/71?category=395154…"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"/><meta data-react-helmet="true" name="twitter:creator" content="[m9752]"/><meta data-react-helmet="true" name="twitter:title" content="Jenkins 설정"/><meta data-react-helmet="true" name="twitter:description" content="Jenkins 설정 빌드/배포에 활용할 Jenkins를 설정합니다. 설정 1. Jenkins 버전 업데이트 docker로 설치 시 플러그인 설치가 제대로 되지 않는 경우가 많습니다. 😥 이런 경우에는 Jenkins를 최신 버전으로 업데이트 해줍니다.  docker로 Jenkins 설치 후, 최근 버전의 jenkins.war 를 다운 받아 수동으로 업데이트 해줍니다. 자세한 방법은 아래 링크를 참조하세요. https://ocblog.tistory.com/m/71?category=395154…"/><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><link as="script" rel="preload" href="/webpack-runtime-1a45db10a31038613b44.js"/><link as="script" rel="preload" href="/framework-305b3707783ccc9d7ca6.js"/><link as="script" rel="preload" href="/app-08c1c683ee6df38e6946.js"/><link as="script" rel="preload" href="/styles-e9d24b1846c7d6eb9685.js"/><link as="script" rel="preload" href="/133dca110fad53aa1997b630637bbac3134a2d14-f562d7f1c03409df0e50.js"/><link as="script" rel="preload" href="/d5d7a013bc6c1e2b6d7db819052c16d7efea5559-5e88269b7626fe527ea5.js"/><link as="script" rel="preload" href="/cd7d5f864fc9e15ed8adef086269b0aeff617554-5bdfcd6b4cc6dfd45a0e.js"/><link as="script" rel="preload" href="/component---src-templates-blog-post-js-918c6e894fd53eabf01e.js"/><link as="fetch" rel="preload" href="/page-data\development\jenkins 설정\page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/3128451518.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/521680639.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data\app-data.json" crossorigin="anonymous"/></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="top"><a class="link" href="/">dev memo</a><a href="https://github.com/m9752/" class="github" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path></svg></a></div><div style="margin-left:auto;margin-right:auto;max-width:39rem;padding:2.4375rem 1.21875rem"><div class="switch-container"><label for="normal-switch"><div style="position:relative;display:inline-block;text-align:left;opacity:1;direction:ltr;border-radius:12px;-webkit-transition:opacity 0.25s;-moz-transition:opacity 0.25s;transition:opacity 0.25s;touch-action:none;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none"><div class="react-switch-bg" style="height:24px;width:48px;margin:0;position:relative;background:#d9dfe2;border-radius:12px;cursor:pointer;-webkit-transition:background 0.25s;-moz-transition:background 0.25s;transition:background 0.25s"><div style="height:24px;width:26px;position:relative;opacity:0;pointer-events:none;-webkit-transition:opacity 0.25s;-moz-transition:opacity 0.25s;transition:opacity 0.25s"><div class="icon checkedIcon"><svg width="24" height="24"><rect width="24" height="24" fill="none" rx="0" ry="0"></rect><path fill-rule="evenodd" clip-rule="evenodd" d="M14.8102 3.2H13.8202C13.4902 3.2 13.2302 2.93 13.2302 2.6C13.2302 2.27 13.5002 2 13.8302 2H16.2602C16.5002 2 16.7202 2.15 16.8102 2.37C16.9002 2.59 16.8502 2.85 16.6802 3.02L15.2702 4.43H16.2602C16.5902 4.43 16.8602 4.7 16.8602 5.03C16.8602 5.36 16.5902 5.63 16.2602 5.63H13.8202C13.5802 5.63 13.3602 5.48 13.2702 5.26C13.1802 5.04 13.2302 4.78 13.4002 4.61L14.8102 3.2ZM20.1401 11.0101H21.1301C21.4601 11.0101 21.7401 11.2801 21.7401 11.6101C21.7401 11.9401 21.4701 12.2101 21.1401 12.2101H18.7001C18.4601 12.2101 18.2401 12.0601 18.1501 11.8401C18.0601 11.6201 18.1101 11.3601 18.2801 11.1901L19.6901 9.78008H18.7001C18.3701 9.78008 18.1001 9.51008 18.1001 9.18008C18.1001 8.85008 18.3701 8.58008 18.7001 8.58008H21.1301C21.3701 8.58008 21.5901 8.73008 21.6801 8.95008C21.7701 9.17008 21.7201 9.43008 21.5501 9.60008L20.1401 11.0101ZM11.0302 9.8499H12.8502L10.7002 11.9999C10.5302 12.1699 10.4802 12.4299 10.5702 12.6499C10.6602 12.8699 10.8802 13.0199 11.1202 13.0199H14.2902C14.6202 13.0199 14.8902 12.7499 14.8902 12.4199C14.8902 12.0899 14.6202 11.8199 14.2902 11.8199H12.5602L14.7102 9.6699C14.8802 9.4999 14.9302 9.2399 14.8402 9.0199C14.7502 8.7999 14.5302 8.6499 14.2902 8.6499H11.0202C10.6902 8.6499 10.4202 8.9199 10.4202 9.2499C10.4202 9.5799 10.7002 9.8499 11.0302 9.8499ZM14.5501 16.89C15.6601 16.89 16.7201 16.66 17.7101 16.19C17.9401 16.08 18.2101 16.13 18.3801 16.3C18.5601 16.48 18.6101 16.75 18.5001 16.98C17.0901 20.05 13.9901 22.03 10.6001 22.03C5.79013 22.03 1.88013 18.12 1.88013 13.31C1.88013 9.94004 3.87013 6.84004 6.93013 5.40004C7.16013 5.29004 7.43012 5.34004 7.61012 5.52004C7.79012 5.70004 7.84013 5.97004 7.73013 6.20004C7.27013 7.19004 7.03012 8.26004 7.03012 9.38004C7.03012 13.52 10.4001 16.89 14.5501 16.89ZM3.09013 13.31C3.09013 17.46 6.46012 20.83 10.6101 20.83C12.9901 20.83 15.2001 19.7 16.6001 17.85C15.9401 18.01 15.2501 18.09 14.5501 18.09C9.74013 18.09 5.83012 14.18 5.83012 9.38004C5.83012 8.68004 5.91013 7.99004 6.07013 7.32004C4.22013 8.73004 3.09013 10.94 3.09013 13.31Z"></path></svg></div></div><div style="height:24px;width:26px;position:absolute;opacity:1;right:0;top:0;pointer-events:none;-webkit-transition:opacity 0.25s;-moz-transition:opacity 0.25s;transition:opacity 0.25s"><div class="icon uncheckedIcon"><svg width="24" height="24"><rect width="24" height="24" fill="none" rx="0" ry="0"></rect><path fill-rule="evenodd" clip-rule="evenodd" d="M12.7488 5.67224C13.1057 5.67298 13.3958 5.38416 13.3965 5.0271C13.3973 4.67005 13.1084 4.37989 12.7515 4.37915C12.3943 4.37842 12.1043 4.66724 12.1035 5.02442C12.1028 5.38135 12.3916 5.67151 12.7488 5.67224ZM9.39535 6.57153C9.70504 6.39355 9.81173 5.99841 9.63388 5.68884C9.45602 5.37914 9.06076 5.27245 8.75119 5.45031C8.44162 5.62817 8.3348 6.02343 8.51266 6.333C8.69064 6.64257 9.08578 6.74926 9.39535 6.57153ZM6.94091 9.02688C6.76171 9.33571 6.3662 9.44094 6.05736 9.26174C5.74852 9.08254 5.6433 8.68691 5.8225 8.37807C6.0017 8.06923 6.39733 7.96413 6.70617 8.14333C7.015 8.32253 7.12011 8.71804 6.94091 9.02688ZM6.04309 12.3806C6.04383 12.0234 5.75501 11.7334 5.39795 11.7327C5.0409 11.7319 4.75074 12.0208 4.75 12.3779C4.74927 12.7349 5.03809 13.0249 5.39527 13.0256C5.7522 13.0265 6.04236 12.7376 6.04309 12.3806ZM5.82116 16.3781C5.6433 16.0684 5.74999 15.6734 6.05968 15.4954C6.36925 15.3176 6.7644 15.4244 6.94237 15.734C7.12023 16.0435 7.01342 16.4388 6.70385 16.6165C6.39428 16.7945 5.99902 16.6877 5.82116 16.3781ZM9.39773 18.1882C9.08889 18.0091 8.69338 18.1142 8.51418 18.423C8.33498 18.7319 8.44008 19.1275 8.74892 19.3067C9.05776 19.4858 9.45339 19.3808 9.63259 19.072C9.81179 18.7631 9.70656 18.3674 9.39773 18.1882ZM12.1035 19.7313C12.1043 19.3743 12.3943 19.0855 12.7515 19.0862C13.1084 19.0869 13.3973 19.377 13.3965 19.7341C13.3958 20.0911 13.1057 20.3799 12.7488 20.3792C12.3916 20.3784 12.1028 20.0884 12.1035 19.7313ZM16.1047 18.1869C15.7951 18.3647 15.6883 18.7599 15.8662 19.0695C16.0442 19.3791 16.4392 19.4859 16.7489 19.308C17.0584 19.1302 17.1652 18.735 16.9873 18.4255C16.8095 18.1158 16.4143 18.009 16.1047 18.1869ZM18.559 15.7315C18.7382 15.4227 19.134 15.3177 19.4428 15.4969C19.7516 15.676 19.8566 16.0716 19.6775 16.3804C19.4983 16.6893 19.1027 16.7945 18.7939 16.6153C18.485 16.4361 18.3799 16.0403 18.559 15.7315ZM20.105 11.7327C19.7478 11.7319 19.4578 12.0208 19.457 12.3779C19.4563 12.7349 19.7451 13.0249 20.1022 13.0256C20.4592 13.0265 20.7493 12.7376 20.75 12.3806C20.7507 12.0234 20.4619 11.7334 20.105 11.7327ZM19.679 8.38046C19.8569 8.69003 19.75 9.08529 19.4405 9.26315C19.1309 9.44101 18.7356 9.33432 18.5579 9.02462C18.3799 8.71505 18.4867 8.31991 18.7964 8.14193C19.106 7.96408 19.5011 8.07089 19.679 8.38046ZM16.1022 6.57006C16.4111 6.74926 16.8068 6.64415 16.986 6.33532C17.1652 6.02648 17.06 5.63085 16.7512 5.45165C16.4423 5.27245 16.0467 5.37767 15.8676 5.68651C15.6884 5.99535 15.7934 6.39086 16.1022 6.57006ZM8.26319 12.3795C8.26319 9.90466 10.2761 7.8916 12.75 7.8916C15.2249 7.8916 17.2379 9.90466 17.2379 12.3795C17.2379 14.8534 15.2249 16.8663 12.75 16.8663C10.2761 16.8663 8.26319 14.8534 8.26319 12.3795ZM9.5553 12.3795C9.5553 14.141 10.9885 15.5741 12.75 15.5741C14.5115 15.5741 15.9458 14.141 15.9458 12.3795C15.9458 10.618 14.5115 9.18372 12.75 9.18372C10.9885 9.18372 9.5553 10.618 9.5553 12.3795Z"></path></svg></div></div></div><div class="react-switch-handle" style="height:22px;width:22px;background:#ffffff;display:inline-block;cursor:pointer;border-radius:50%;position:absolute;transform:translateX(1px);top:1px;outline:0;border:0;-webkit-transition:background-color 0.25s, transform 0.25s, box-shadow 0.15s;-moz-transition:background-color 0.25s, transform 0.25s, box-shadow 0.15s;transition:background-color 0.25s, transform 0.25s, box-shadow 0.15s"></div><input type="checkbox" role="switch" style="border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px" id="normal-switch"/></div></label></div><h1>Jenkins 설정</h1><p class="post-date">February 20, 2021</p><div><h1 id="jenkins-설정" style="position:relative;"><a href="#jenkins-%EC%84%A4%EC%A0%95" aria-label="jenkins 설정 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Jenkins 설정</h1>
+<ul>
+<li>빌드/배포에 활용할 Jenkins를 설정합니다.</li>
+</ul>
 <h2 id="설정" style="position:relative;"><a href="#%EC%84%A4%EC%A0%95" aria-label="설정 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>설정</h2>
 <h3 id="1-jenkins-버전-업데이트" style="position:relative;"><a href="#1-jenkins-%EB%B2%84%EC%A0%84-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8" aria-label="1 jenkins 버전 업데이트 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1. Jenkins 버전 업데이트</h3>
 <ul>
-<li>docker 실행 시 플러그인 설치가 오류나는 경우가 잦음 😥</li>
-<li>최신 버전으로 업데이트 필요하다 😑</li>
+<li>docker로 설치 시 플러그인 설치가 제대로 되지 않는 경우가 많습니다. 😥 이런 경우에는 Jenkins를 최신 버전으로 업데이트 해줍니다. </li>
 <li>
-<p>수동으로 업데이트 : <a href="https://ocblog.tistory.com/m/71?category=395154">https://ocblog.tistory.com/m/71?category=395154</a></p>
+<p>docker로 Jenkins 설치 후, 최근 버전의 jenkins.war 를 다운 받아 수동으로 업데이트 해줍니다. 자세한 방법은 아래 링크를 참조하세요.</p>
 <ul>
-<li>최신 jenkins.war 파일로 교체 작업</li>
+<li><a href="https://ocblog.tistory.com/m/71?category=395154">https://ocblog.tistory.com/m/71?category=395154</a></li>
 </ul>
 </li>
 </ul>
 <h3 id="2-jdk-maven-설정" style="position:relative;"><a href="#2-jdk-maven-%EC%84%A4%EC%A0%95" aria-label="2 jdk maven 설정 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2. JDK, Maven 설정</h3>
 <ul>
-<li>Jenkins 관리 > Global Tool Configuration</li>
-<li>Maven : 버전 선택하여 자동 설치 가능함</li>
-<li>
-<p>JDK는 9버전까지만 가능한듯</p>
+<li>소스코드 빌드를 위해 JDK, Maven을 설치하고 설정해줘야 합니다. </li>
+<li>Jenkins 관리 > Global Tool Configuration 에서 설정할 수 있습니다.</li>
+<li>Maven은 버전을 선택하여 자동 설치할 수 있습니다. 가장 최근 버전인 3.6.3버전을 설치합니다. </li>
+</ul>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 946px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 44.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAqklEQVQoz5VQ7Q6DIAz0/R9zxo84FChIkWJZp8mSZbjE+0HClTuu1xhjHm0bQij30SDiPM8BMaWUcxaKS9lS8msQkg7mUpyJvPfOuWVZYoxvMTP4tevH8akwbv/EVRYjam2I6LyK3aX4nH29YHZWAziwIKHERab7D+o/014GYAcgu2itxYBrqIt3LhBZ6vjgxs6CtGF3oB96OXOt9kuxpJLMSqlpmqy11c5eHtASrsEuObwAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="jenkins 02 02"
+        title="jenkins 02 02"
+        src="/static/347f71827c0d4837e53165d695a1d058/36c33/jenkins_02_02.png"
+        srcset="/static/347f71827c0d4837e53165d695a1d058/5a46d/jenkins_02_02.png 300w,
+/static/347f71827c0d4837e53165d695a1d058/0a47e/jenkins_02_02.png 600w,
+/static/347f71827c0d4837e53165d695a1d058/36c33/jenkins_02_02.png 946w"
+        sizes="(max-width: 946px) 100vw, 946px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
 <ul>
-<li>JDK 따로 다운받아 압축 풀고 경로 설정해줄 것</li>
+<li>JDK는 Oracle의 자바 라이선스 변경으로 9버전까지만 설치 가능합니다. </li>
+<li>OpenJDK 11버전을 따로 다운받아 압축을 풀고 경로를 설정합니다. </li>
 </ul>
-</li>
-</ul>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 941px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 37.99999999999999%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAIAAAB2/0i6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAoUlEQVQY05WQ2w4CIQxE+f/vVLM+UG4FXK6OmBCjbDZOCGkIZzqtkFL23ltr/X8J730pJec8+ZRziBGn1noCO2vR3BgzYefD5bZdtztcTuDfp5QSs29D87GtJGb18a86h0AWdQiBiGKMX0a4MZRY5tn3HTx7xkYwETM/huLQu8am1jCSAwMDB62UlAQvuBApCKGMNoed4Wqd1VrbF0BHm3sCgePXM2XCZqoAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="jenkins 02 01"
+        title="jenkins 02 01"
+        src="/static/6f226dfd3b0162db4bce2b285e843677/a8417/jenkins_02_01.png"
+        srcset="/static/6f226dfd3b0162db4bce2b285e843677/5a46d/jenkins_02_01.png 300w,
+/static/6f226dfd3b0162db4bce2b285e843677/0a47e/jenkins_02_01.png 600w,
+/static/6f226dfd3b0162db4bce2b285e843677/a8417/jenkins_02_01.png 941w"
+        sizes="(max-width: 941px) 100vw, 941px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
 <h3 id="3-gitlab-연동" style="position:relative;"><a href="#3-gitlab-%EC%97%B0%EB%8F%99" aria-label="3 gitlab 연동 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3. Gitlab 연동</h3>
 <h4 id="1-gitlab-플러그인-설치" style="position:relative;"><a href="#1-gitlab-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8-%EC%84%A4%EC%B9%98" aria-label="1 gitlab 플러그인 설치 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1) Gitlab 플러그인 설치</h4>
+<ul>
+<li>설정의 플러그인 관리에서 gitlab 플러그인을 설치해 줍니다.</li>
+</ul>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1082px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 24%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAIAAADKYVtkAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAyElEQVQY0z1P0Y7CMAzr/38XL7wgdOKEdAwkEAesMDbWNO2WNL1mg7Msx4pUOzU555FS3fpr0+MwEjMORMRKZnWTvg2ziOQPDCcdIcbbzVr7cIC/LQAG8AVYFBFhQjFlVSLK6znAWNBu96w6uy3quwrbnWt+ojtGd4r9pEo1FM45AQQap06jGTL0zfflsKiPy/q0fFxWz+v6dd90dtPWX/jaRbcPfRXdYfR74a4cPh9vtF6SpMDkmSCxL17J+GYKWeJM3Qv9//kPZqYfba4F7vkAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="jenkins 03 01"
+        title="jenkins 03 01"
+        src="/static/67e2053fff32f6ac51269a2a839f4b4e/21335/jenkins_03_01.png"
+        srcset="/static/67e2053fff32f6ac51269a2a839f4b4e/5a46d/jenkins_03_01.png 300w,
+/static/67e2053fff32f6ac51269a2a839f4b4e/0a47e/jenkins_03_01.png 600w,
+/static/67e2053fff32f6ac51269a2a839f4b4e/21335/jenkins_03_01.png 1082w"
+        sizes="(max-width: 1082px) 100vw, 1082px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
 <h4 id="2-jenkins-관리--시스템-설정" style="position:relative;"><a href="#2-jenkins-%EA%B4%80%EB%A6%AC--%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%84%A4%EC%A0%95" aria-label="2 jenkins 관리  시스템 설정 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2) Jenkins 관리 > 시스템 설정</h4>
 <ul>
 <li>
-<p>Gitlab 섹션</p>
+<p>시스템 설정의 Gitlab 섹션으로 이동합니다. </p>
 <ul>
-<li>Gitlab 정보 입력</li>
-<li>credential은 Gitlab API Token 타입으로 설정</li>
-<li>Gitlab에서 미리 생성해둔 프로젝트 API Token 값 입력</li>
+<li>
+<p>Gitlab connection name 및 URL정보를 입력합니다. </p>
+<ul>
+<li>docker network를 사용하므로 docker 컨테이너명인 gitlab을 url로 사용할 수 있습니다. </li>
+</ul>
+</li>
+<li>
+<p>credential은 Gitlab API Token 타입으로 설정합니다.</p>
+<ul>
+<li>Gitlab에서 미리 생성해둔 프로젝트 Access Token 값을 입력합니다. (jenkins-build)</li>
+<li>Test Connection 버튼을 눌러 연결이 잘 됐는지 확인합니다. 😎</li>
 </ul>
 </li>
 </ul>
-<h4 id="3-jenkins-관리--manage-credentials" style="position:relative;"><a href="#3-jenkins-%EA%B4%80%EB%A6%AC--manage-credentials" aria-label="3 jenkins 관리  manage credentials permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3). Jenkins 관리 > Manage Credentials</h4>
+</li>
+</ul>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1176px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 34.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAIAAACHqfpvAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAqUlEQVQY031QSQ7DIAzk/w9tUzUCDMZgKNBJcsmFzMFCmNkw23uLzHPOMeYKY7Ez3pNzznvPzCklDEn8DSp1jP4DxlrVgENEIKtq7721djD6qLVBK4mEE7irtR6bG8xKFU9F5JpIhlQ5Cwj3IEsyIuScL/K+76hWq0rOpRQ5EWN6ckZaWGkp1lryZK07DugY4mv7hMjm4YfREAdYEQXmSIFgCDkUL6po/wfwcJp/T4pBnAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="jenkins 03 02"
+        title="jenkins 03 02"
+        src="/static/86c1e340b4ffbe5f10cfa40060e4e210/e9d87/jenkins_03_02.png"
+        srcset="/static/86c1e340b4ffbe5f10cfa40060e4e210/5a46d/jenkins_03_02.png 300w,
+/static/86c1e340b4ffbe5f10cfa40060e4e210/0a47e/jenkins_03_02.png 600w,
+/static/86c1e340b4ffbe5f10cfa40060e4e210/e9d87/jenkins_03_02.png 1176w"
+        sizes="(max-width: 1176px) 100vw, 1176px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<h4 id="3-jenkins-관리--manage-credentials" style="position:relative;"><a href="#3-jenkins-%EA%B4%80%EB%A6%AC--manage-credentials" aria-label="3 jenkins 관리  manage credentials permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3) Jenkins 관리 > Manage Credentials</h4>
 <ul>
 <li>
-<p>Gitlab에 생성해둔 계정 정보 추가</p>
+<p>Gitlab에 생성해둔 계정 정보를 추가합니다. </p>
 <ul>
-<li>타입 : Username with password</li>
-<li>password는 계정의 API Token 값 입력</li>
-<li>이 계정을 Jenkins 프로젝트의 git 계정으로 사용</li>
+<li>타입 : Username with password 를 선택합니다.</li>
+<li>password는 계정의 Access Token 값을 입력합니다.</li>
+<li>이 계정을 Jenkins 프로젝트의 git 계정으로 사용하도록 합니다.</li>
 </ul>
 </li>
 </ul>
 <h4 id="4-프로젝트-생성" style="position:relative;"><a href="#4-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%83%9D%EC%84%B1" aria-label="4 프로젝트 생성 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>4). 프로젝트 생성</h4>
 <ul>
-<li>적당히 생성</li>
+<li>적당히 생성해 줍니다. 😉</li>
 <li>
-<p>구성 > Gitlab Connection</p>
+<p>프로젝트 구성 > Gitlab Connection</p>
 <ul>
-<li>시스템 설정에서 만들어둔 Connection 명 입력</li>
-</ul>
-</li>
-<li>
-<p>구성 > 소스코드 관리 </p>
-<ul>
-<li>Git 선택 후 Repository URL 및 Credential 선택</li>
+<li>시스템 설정에서 만들어둔 Connection name을 선택합니다. (gitlab1)</li>
 </ul>
 </li>
 </ul>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 581px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 21.666666666666668%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAIAAAABPYjBAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAhUlEQVQI13WP2wrDIBBE/f+PTLQmdVW8rXiJ0tClgT6U9DwsAzuzzLIYY84ZQFlrnfPGGMQ8xjg+9N6P/7CUEoWVUgAaADa5hRgp01qjE3POS9/CvPecr+uySCnFQ5DiQlCd1iqt9v1JpvM8X3ewEALmTG6qgIjXpOalFOec1rrW+v3ihzeAM+QPVqpi2wAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="jenkins 03 04"
+        title="jenkins 03 04"
+        src="/static/2187c57b3180e683931465356e7ba242/92d15/jenkins_03_04.png"
+        srcset="/static/2187c57b3180e683931465356e7ba242/5a46d/jenkins_03_04.png 300w,
+/static/2187c57b3180e683931465356e7ba242/92d15/jenkins_03_04.png 581w"
+        sizes="(max-width: 581px) 100vw, 581px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<ul>
+<li>
+<p>구성 > 소스코드 관리</p>
+<ul>
+<li>Git 선택 후 Repository URL을 입력하고 Credential을 선택합니다. (jenkins 계정)</li>
+</ul>
+</li>
+</ul>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1066px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 36%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAIAAACHqfpvAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAoUlEQVQY05WPUQ+DIAyE+f8/cT5tUwQK7UCMzr3sqHHxzewLIW3TgztDRM9H49Z17z8xtVYRWZZ179cT1+IxTUnyZ2ug305ci5kZzmOM8zzDxesg5zxdYeQADQTOubtircWL3vsQqB1cIZRSztEMBFWBGB9iaeiHvh9YWKQ5gIBZq1w8xRBjYkmKwfRnAzUijAonjgqWAnIRIaB13jqns8YXMe2NUDj2X38AAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="jenkins 03 03"
+        title="jenkins 03 03"
+        src="/static/b910122548be14724d27fe8361e685c6/2e367/jenkins_03_03.png"
+        srcset="/static/b910122548be14724d27fe8361e685c6/5a46d/jenkins_03_03.png 300w,
+/static/b910122548be14724d27fe8361e685c6/0a47e/jenkins_03_03.png 600w,
+/static/b910122548be14724d27fe8361e685c6/2e367/jenkins_03_03.png 1066w"
+        sizes="(max-width: 1066px) 100vw, 1066px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
 <h3 id="4-maven-실행-스크립트-docker" style="position:relative;"><a href="#4-maven-%EC%8B%A4%ED%96%89-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-docker" aria-label="4 maven 실행 스크립트 docker permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>4. Maven 실행 스크립트 (docker)</h3>
 <ul>
-<li>Maven 빌드</li>
+<li>Maven 빌드 커맨드를 아래와 같이 적어둡니다. </li>
+<li>빌드만 테스트하기 위해 test를 수행하지 않도록 했고, 운영(prod) 설정으로 프로필을 설정합니다.</li>
 </ul>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">clean package -DskipTests -P prod</code></pre></div>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 684px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 47.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA9UlEQVQoz5WR606EMBCF+/4vR0lcm7BEMCylsBQZW1wtRPbYMTX+wMQvBKbDnLl0hFKqrqoQwsf/EXX9bIx5j9xu/PwA51/idQ3btq34JNbAR7wR8XaMGMexKAqZ5+hfPaqH00nKLJcSpyzLinPpvX89QBDRdRiaptFte2lbrbXpe2ScpqnrtLXWHyOcc0Rz9VRB2HxxWZYFGoiRGxH7vn8eIBDhnMfdQMP5YjqaiWDgmCZEABu/K89zWZa96Xk8eLgmRWC/RNgP0gq4skOTFEsxw3XA2B2G1hq/sEvY0Ft4R4stbJFvcWqY4RGWCHeehoKRbvsOTgA3ClzfQBgAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="jenkins 03 05"
+        title="jenkins 03 05"
+        src="/static/c8b4e315e9b3504cf6b5bc43517fe0fc/2c288/jenkins_03_05.png"
+        srcset="/static/c8b4e315e9b3504cf6b5bc43517fe0fc/5a46d/jenkins_03_05.png 300w,
+/static/c8b4e315e9b3504cf6b5bc43517fe0fc/0a47e/jenkins_03_05.png 600w,
+/static/c8b4e315e9b3504cf6b5bc43517fe0fc/2c288/jenkins_03_05.png 684w"
+        sizes="(max-width: 684px) 100vw, 684px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
 <ul>
 <li>
 <p>docker 이미지 빌드</p>
 <ul>
-<li>테스트 용으로 대충 작성.. 😅</li>
-<li>system1 컨테이너 없을 경우 오류남ㅎㅎ 😎</li>
+<li>테스트 용 쉘스크립트입니다. 쉘스크립트는 잘 몰라서 대충 작성했습니다. 😅</li>
+<li>system1 docker 컨테이너가 없을 경우 빌드 실패합니다ㅎㅎㅎ 적당히 고쳐 쓰세요. 😎</li>
 </ul>
 </li>
-<li>docker private repository (로컬) 사용할 경우</li>
 </ul>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1095px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 27%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAIAAADKYVtkAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAoUlEQVQY05WOSw7DIAwFc/8rtot0lyhqArYh+APUKKnUbUdPwEMa8LQsy/PxfM0z0t9MALCu67ZtMQbCgpH2IyBZ77216vHN6b326/TDhA4hAoQQxud47u8SDq8xETOLiKqacBcxL9eVmX3l4Q45EUWCA2CHAxOmwknOxInVhaZazdR00OqY6JadnE9/NXHOkjPnIsXXUfn0eFVX9Y5P4/kA9fwgmjRt4zoAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="jenkins 03 06"
+        title="jenkins 03 06"
+        src="/static/82da88c9891f783cc3a55628704f481b/07a6a/jenkins_03_06.png"
+        srcset="/static/82da88c9891f783cc3a55628704f481b/5a46d/jenkins_03_06.png 300w,
+/static/82da88c9891f783cc3a55628704f481b/0a47e/jenkins_03_06.png 600w,
+/static/82da88c9891f783cc3a55628704f481b/07a6a/jenkins_03_06.png 1095w"
+        sizes="(max-width: 1095px) 100vw, 1095px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<ol>
+<li>docker private repository (로컬) 사용할 경우</li>
+</ol>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">docker stop system1
 docker <span class="token function">rm</span> system1
 
