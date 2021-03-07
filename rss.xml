@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[dev memo]]></title><description><![CDATA[memo]]></description><link>https://m9752.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 24 Feb 2021 13:24:06 GMT</lastBuildDate><item><title><![CDATA[about]]></title><description><![CDATA[m9752 Hello World 😀]]></description><link>https://m9752.github.io/resume-en/</link><guid isPermaLink="false">https://m9752.github.io/resume-en/</guid><pubDate>Sat, 20 Feb 2021 16:21:13 GMT</pubDate><content:encoded>&lt;h1 id=&quot;m9752&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#m9752&quot; aria-label=&quot;m9752 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;m9752&lt;/h1&gt;
-&lt;p&gt;Hello World 😀&lt;/p&gt;</content:encoded></item><item><title><![CDATA[테스트 서버]]></title><description><![CDATA[테스트 서버 구성 리눅스 환경에서 사용하기 위해 virtualbox로 가상 피씨를 만들고 우분투 서버를 설치했습니다.  OS Info Ubuntu Server 18.04.5 LTS : https://releases.ubuntu.com/18.0…]]></description><link>https://m9752.github.io/development/테스트 서버/</link><guid isPermaLink="false">https://m9752.github.io/development/테스트 서버/</guid><pubDate>Sat, 20 Feb 2021 12:37:34 GMT</pubDate><content:encoded>&lt;h1 id=&quot;테스트-서버-구성&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%84%9C%EB%B2%84-%EA%B5%AC%EC%84%B1&quot; aria-label=&quot;테스트 서버 구성 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;테스트 서버 구성&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[dev memo]]></title><description><![CDATA[memo]]></description><link>https://m9752.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 07 Mar 2021 13:04:53 GMT</lastBuildDate><item><title><![CDATA[테스트 서버]]></title><description><![CDATA[테스트 서버 구성 리눅스 환경에서 사용하기 위해 virtualbox로 가상 피씨를 만들고 우분투 서버를 설치했습니다.  OS Info Ubuntu Server 18.04.5 LTS : https://releases.ubuntu.com/18.0…]]></description><link>https://m9752.github.io/development/테스트 서버/</link><guid isPermaLink="false">https://m9752.github.io/development/테스트 서버/</guid><pubDate>Sun, 21 Mar 2021 20:11:19 GMT</pubDate><content:encoded>&lt;h1 id=&quot;테스트-서버-구성&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%84%9C%EB%B2%84-%EA%B5%AC%EC%84%B1&quot; aria-label=&quot;테스트 서버 구성 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;테스트 서버 구성&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;리눅스 환경에서 사용하기 위해 virtualbox로 가상 피씨를 만들고 우분투 서버를 설치했습니다.&lt;/li&gt;
 &lt;/ul&gt;
@@ -61,7 +60,7 @@
 &lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 권한 포함하여 압축/해제&lt;/span&gt;
 $ &lt;span class=&quot;token function&quot;&gt;tar&lt;/span&gt; cvfzp filename.tar.gz public_html/  &lt;span class=&quot;token comment&quot;&gt;# 압축&lt;/span&gt;
-$ &lt;span class=&quot;token function&quot;&gt;tar&lt;/span&gt; xvfzp filename.tar.gz public_html/  &lt;span class=&quot;token comment&quot;&gt;# 해제&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Jenkins 설정]]></title><description><![CDATA[Jenkins 설정 빌드/배포 자동화에 활용할 Jenkins를 설정합니다. 설정 1. Jenkins 버전 업데이트 docker로 Jenkins를 설치할 경우 플러그인 업데이트 오류가 나는 경우가 많습니다. 😥 Jenkins…]]></description><link>https://m9752.github.io/development/jenkins 설정/</link><guid isPermaLink="false">https://m9752.github.io/development/jenkins 설정/</guid><pubDate>Sat, 20 Feb 2021 12:27:34 GMT</pubDate><content:encoded>&lt;h1 id=&quot;jenkins-설정&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#jenkins-%EC%84%A4%EC%A0%95&quot; aria-label=&quot;jenkins 설정 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Jenkins 설정&lt;/h1&gt;
+$ &lt;span class=&quot;token function&quot;&gt;tar&lt;/span&gt; xvfzp filename.tar.gz public_html/  &lt;span class=&quot;token comment&quot;&gt;# 해제&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Jenkins 설정]]></title><description><![CDATA[Jenkins 설정 빌드/배포 자동화에 활용할 Jenkins를 설정합니다. 설정 1. Jenkins 버전 업데이트 docker로 Jenkins를 설치할 경우 플러그인 업데이트 오류가 나는 경우가 많습니다. 😥 Jenkins…]]></description><link>https://m9752.github.io/development/jenkins 설정/</link><guid isPermaLink="false">https://m9752.github.io/development/jenkins 설정/</guid><pubDate>Sun, 14 Mar 2021 20:27:52 GMT</pubDate><content:encoded>&lt;h1 id=&quot;jenkins-설정&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#jenkins-%EC%84%A4%EC%A0%95&quot; aria-label=&quot;jenkins 설정 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Jenkins 설정&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;빌드/배포 자동화에 활용할 Jenkins를 설정합니다.&lt;/li&gt;
 &lt;/ul&gt;
@@ -312,8 +311,8 @@ $ &lt;span class=&quot;token function&quot;&gt;tar&lt;/span&gt; xvfzp filename.t
 &lt;li&gt;
 &lt;p&gt;docker 이미지 빌드&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;테스트 용도의 쉘스크립트입니다. 쉘스크립트는 잘 몰라서 대충 작성했습니다. 😅&lt;/li&gt;
-&lt;li&gt;system1 docker 컨테이너가 없을 경우 빌드 실패합니다ㅎㅎㅎ 적당히 고쳐 쓰세요. 😎&lt;/li&gt;
+&lt;li&gt;테스트 용도로 대충😅 작성한 쉘스크립트입니다. &lt;/li&gt;
+&lt;li&gt;system1 컨테이너가 없을 경우 빌드 실패합니다ㅎㅎㅎㅎ 적당히 고쳐 쓰세요. 😎&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -355,7 +354,7 @@ docker push localhost:5000/system1:1.0
 
 docker rmi &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;docker images -f &lt;span class=&quot;token string&quot;&gt;&quot;dangling=true&quot;&lt;/span&gt; -q&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ol start=&quot;2&quot;&gt;
-&lt;li&gt;docker hub 사용할 경우&lt;/li&gt;
+&lt;li&gt;docker hub 사용할 경우 : &lt;a href=&quot;https://hub.docker.com/&quot;&gt;https://hub.docker.com/&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;docker stop system1-hub
 docker &lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; system1-hub
@@ -459,7 +458,7 @@ BUILD_ID=dontKillMe ./startup.sh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3 id=&quot;9-jenkins-빌드-히스토리-초기화&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#9-jenkins-%EB%B9%8C%EB%93%9C-%ED%9E%88%EC%8A%A4%ED%86%A0%EB%A6%AC-%EC%B4%88%EA%B8%B0%ED%99%94&quot; aria-label=&quot;9 jenkins 빌드 히스토리 초기화 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;9. Jenkins 빌드 히스토리 초기화&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://jojoldu.tistory.com/446&quot;&gt;https://jojoldu.tistory.com/446&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Gitlab 설정]]></title><description><![CDATA[Gitlab 설정 Gitlab 기본 설정 외 jenkins와 연동하기 위해 필요한 내용입니다. 설정 1. 유저 생성 ‘jenkins’ 계정 추가 Jenkins에서 소스 코드 접근 시 사용할 계정입니다.  SSL 연결이 아닌 경우, 계정 Setting…]]></description><link>https://m9752.github.io/development/gitlab 설정/</link><guid isPermaLink="false">https://m9752.github.io/development/gitlab 설정/</guid><pubDate>Sat, 20 Feb 2021 12:25:34 GMT</pubDate><content:encoded>&lt;h1 id=&quot;gitlab-설정&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gitlab-%EC%84%A4%EC%A0%95&quot; aria-label=&quot;gitlab 설정 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gitlab 설정&lt;/h1&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Gitlab 설정]]></title><description><![CDATA[Gitlab 설정 Gitlab 기본 설정 외 jenkins와 연동하기 위해 필요한 내용입니다. 설정 1. 유저 생성 ‘jenkins’ 계정 추가 Jenkins에서 소스 코드 접근 시 사용할 계정입니다.  SSL 연결이 아닌 경우, 계정 Setting…]]></description><link>https://m9752.github.io/development/gitlab 설정/</link><guid isPermaLink="false">https://m9752.github.io/development/gitlab 설정/</guid><pubDate>Thu, 04 Mar 2021 17:05:29 GMT</pubDate><content:encoded>&lt;h1 id=&quot;gitlab-설정&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gitlab-%EC%84%A4%EC%A0%95&quot; aria-label=&quot;gitlab 설정 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gitlab 설정&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Gitlab 기본 설정 외 jenkins와 연동하기 위해 필요한 내용입니다.&lt;/li&gt;
 &lt;/ul&gt;
@@ -471,7 +470,7 @@ BUILD_ID=dontKillMe ./startup.sh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;Jenkins에서 소스 코드 접근 시 사용할 계정입니다. &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;SSL 연결이 아닌 경우, 계정 Setting에서 Two-Factor Authentication(2FA-2차인증) 로그인 설정이 필요합니다.&lt;/p&gt;
+&lt;p&gt;SSL 연결이 아닌 경우, 계정 Setting에서 &lt;code class=&quot;language-text&quot;&gt;2FA(2차인증)&lt;/code&gt; 로그인 설정이 필요합니다.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;테스트 용도 이므로 SSL 연결 설정까지는 하지 않습니다.&lt;/li&gt;
 &lt;/ul&gt;
@@ -479,7 +478,7 @@ BUILD_ID=dontKillMe ./startup.sh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;li&gt;
 &lt;p&gt;계정 Access Token 발급 후 토큰을 기록해 둡니다.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;토큰은 생성 시 한 번 볼 수 있습니다. 토큰을 잃어버렸다면 기존 토큰 제거 후 다시 발급합니다. &lt;/li&gt;
+&lt;li&gt;토큰은 생성 시 한 번만 볼 수 있습니다. 토큰을 잃어버렸다면 기존 토큰 제거 후 다시 발급합니다. &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -590,10 +589,12 @@ BUILD_ID=dontKillMe ./startup.sh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;repository에 저장된 기존 데이터를 날리고 처음부터 다시 시작할 때 사용합니다. &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://yoshikixdrum.tistory.com/200&quot;&gt;https://yoshikixdrum.tistory.com/200&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Docker Usage]]></title><description><![CDATA[Docker 기본 명령어 docker 네트워크 생성 컨테이너끼리 통신하기 위한 네트워크 nw1 를 생성합니다. DB Oracle 11g 12c 버전도 있지만 11g를 사용했습니다. 😐   11g : https://github.com/jaspeen…]]></description><link>https://m9752.github.io/development/docker/</link><guid isPermaLink="false">https://m9752.github.io/development/docker/</guid><pubDate>Sat, 20 Feb 2021 12:23:34 GMT</pubDate><content:encoded>&lt;h1 id=&quot;docker&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#docker&quot; aria-label=&quot;docker permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Docker&lt;/h1&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Docker 예제 🐶]]></title><description><![CDATA[Docker 기본 명령어 docker 네트워크 생성 컨테이너끼리 통신하기 위한 네트워크 nw1 를 생성합니다. DB Oracle 11g 12c 버전도 있지만 11g를 사용했습니다. 😐   11g : https://github.com/jaspeen…]]></description><link>https://m9752.github.io/development/docker/</link><guid isPermaLink="false">https://m9752.github.io/development/docker/</guid><pubDate>Thu, 04 Mar 2021 16:23:34 GMT</pubDate><content:encoded>&lt;h1 id=&quot;docker&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#docker&quot; aria-label=&quot;docker permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Docker&lt;/h1&gt;
 &lt;h2 id=&quot;기본-명령어&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B8%B0%EB%B3%B8-%EB%AA%85%EB%A0%B9%EC%96%B4&quot; aria-label=&quot;기본 명령어 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;기본 명령어&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 시작 / 중지&lt;/span&gt;
 $ docker start&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;stop&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;컨테이너명&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+$ docker stop &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;컨테이너명&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+$ docker stop &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;docker &lt;span class=&quot;token function&quot;&gt;ps&lt;/span&gt; -aq&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;
 
 &lt;span class=&quot;token comment&quot;&gt;# 컨테이너 프로세스 확인&lt;/span&gt;
 $ docker &lt;span class=&quot;token function&quot;&gt;ps&lt;/span&gt; -a
@@ -618,7 +619,7 @@ $ docker &lt;span class=&quot;token builtin class-name&quot;&gt;exec&lt;/span&gt
 &lt;span class=&quot;token comment&quot;&gt;# 컨테이너 정보&lt;/span&gt;
 $ docker inspect &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;컨테이너명&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
 
-&lt;span class=&quot;token comment&quot;&gt;# docker-compose 사용&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# docker-compose 사용 (docker-compose.yml 작성 후 사용)&lt;/span&gt;
 &lt;span class=&quot;token comment&quot;&gt;## 백그라운드 생성&lt;/span&gt;
 $ docker-compose up -d
 
@@ -681,8 +682,9 @@ $ docker network inspect nw1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;li&gt;username/password: system / oracle&lt;/li&gt;
 &lt;li&gt;Password for SYS &amp;#x26; SYSTEM: oracle&lt;/li&gt;
 &lt;li&gt;sqlplus 접속 : sqlplus sys as sysdba&lt;/li&gt;
+&lt;li&gt;자세한 사용법은 github 참조 : &lt;a href=&quot;https://github.com/jaspeen/oracle-11g&quot;&gt;https://github.com/jaspeen/oracle-11g&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sql&quot;&gt;&lt;pre class=&quot;language-sql&quot;&gt;&lt;code class=&quot;language-sql&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;-- 패스워드 변경 시&lt;/span&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sql&quot;&gt;&lt;pre class=&quot;language-sql&quot;&gt;&lt;code class=&quot;language-sql&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;-- 패스워드 변경&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;ALTER&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;USER&lt;/span&gt; SYS IDENTIFIED &lt;span class=&quot;token keyword&quot;&gt;BY&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&amp;lt;password&gt;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;ALTER&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;USER&lt;/span&gt; SYSTEM IDENTIFIED &lt;span class=&quot;token keyword&quot;&gt;BY&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&amp;lt;password&gt;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3 id=&quot;시간-및-타임존-변경&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%8B%9C%EA%B0%84-%EB%B0%8F-%ED%83%80%EC%9E%84%EC%A1%B4-%EB%B3%80%EA%B2%BD&quot; aria-label=&quot;시간 및 타임존 변경 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;시간 및 타임존 변경&lt;/h3&gt;
@@ -838,7 +840,7 @@ show variables where Variable_name &lt;span class=&quot;token operator&quot;&gt;
 &lt;h2 id=&quot;webwas-tomcat&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#webwas-tomcat&quot; aria-label=&quot;webwas tomcat permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;[WEB/WAS] tomcat&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;WAS 서버&lt;/li&gt;
-&lt;li&gt;jdk 11 환경에서 동작하는 tomcat 9 버전을 생성했습니다.&lt;/li&gt;
+&lt;li&gt;jdk &lt;code class=&quot;language-text&quot;&gt;11&lt;/code&gt; 환경에서 동작하는 tomcat &lt;code class=&quot;language-text&quot;&gt;9&lt;/code&gt; 버전을 생성했습니다.&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Dockerfile 참조&lt;/p&gt;
 &lt;ul&gt;
@@ -848,7 +850,7 @@ show variables where Variable_name &lt;span class=&quot;token operator&quot;&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;생성-docker-compose-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%83%9D%EC%84%B1-docker-compose-1&quot; aria-label=&quot;생성 docker compose 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;생성 (docker-compose)&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Dockerfile로 tomcat9:1.0 이미지를 생성합니다.&lt;/li&gt;
+&lt;li&gt;Dockerfile로 &lt;code class=&quot;language-text&quot;&gt;tomcat9:1.0&lt;/code&gt; 이미지를 생성합니다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&quot;이미지-생성&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%83%9D%EC%84%B1&quot; aria-label=&quot;이미지 생성 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;이미지 생성&lt;/h4&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ docker build --tag tomcat9:1.0 &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -887,14 +889,14 @@ show variables where Variable_name &lt;span class=&quot;token operator&quot;&gt;
 &lt;hr&gt;
 &lt;h2 id=&quot;webwas-tomcat-경량화&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#webwas-tomcat-%EA%B2%BD%EB%9F%89%ED%99%94&quot; aria-label=&quot;webwas tomcat 경량화 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;[WEB/WAS] tomcat (경량화)&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;jdk 11 환경에서 동작하는 tomcat 9 버전&lt;/li&gt;
+&lt;li&gt;jdk &lt;code class=&quot;language-text&quot;&gt;11&lt;/code&gt; 환경에서 동작하는 tomcat &lt;code class=&quot;language-text&quot;&gt;9&lt;/code&gt; 버전&lt;/li&gt;
 &lt;li&gt;alpine 기반의 base image를 사용하여 좀 더 경량화시켜 봤습니다.&lt;/li&gt;
 &lt;li&gt;기존 tomcat9 이미지 668MB, 경량화 이미지 360MB로 절반 가깝게 경량화시켰습니다. 🎉&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;생성-4&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%83%9D%EC%84%B1-4&quot; aria-label=&quot;생성 4 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;생성&lt;/h3&gt;
 &lt;h4 id=&quot;이미지-생성-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%83%9D%EC%84%B1-1&quot; aria-label=&quot;이미지 생성 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;이미지 생성&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Dockerfile로 먼저 tomcat9-alpine:1.0 이미지를 생성합니다.&lt;/li&gt;
+&lt;li&gt;Dockerfile로 먼저 &lt;code class=&quot;language-text&quot;&gt;tomcat9-alpine:1.0&lt;/code&gt; 이미지를 생성합니다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ docker build --tag tomcat9-alpine:1.0 &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Dockerfile&lt;/span&gt;
@@ -962,10 +964,39 @@ CMD &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class
 &lt;h2 id=&quot;테스트-프로젝트-system1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%85%8C%EC%8A%A4%ED%8A%B8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-system1&quot; aria-label=&quot;테스트 프로젝트 system1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;[테스트 프로젝트] system1&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Spring 기반 간단한 웹 프로젝트입니다. &lt;/p&gt;
+&lt;p&gt;Spring boot 기반, 테스트 용도의 토이 프로젝트.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;반응형 웹 (bootstrap4 기반)&lt;/li&gt;
-&lt;li&gt;블라블라&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Spring Boot 2.3.9&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Spring Security&lt;/code&gt; 적용&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;bootstrap4&lt;/code&gt; 기반 UI 적용&lt;/li&gt;
+&lt;li&gt;free-jqgrid 사용&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;관련-오픈소스&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B4%80%EB%A0%A8-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4&quot; aria-label=&quot;관련 오픈소스 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;관련 오픈소스&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;carbon : Bootstrap 4 Admin Template&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/seguce92/carbon&quot;&gt;https://github.com/seguce92/carbon&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;chart.js : Open source HTML5 Charts&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.chartjs.org/&quot;&gt;https://www.chartjs.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;prism.js : syntax highlighter&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://prismjs.com/&quot;&gt;https://prismjs.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;free-jqgrid 4.15.4&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://free-jqgrid.github.io/jqGrid/&quot;&gt;https://free-jqgrid.github.io/jqGrid/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -975,13 +1006,13 @@ CMD &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class
 &lt;li&gt;Dockerfile 로 docker 이미지를 생성합니다. &lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# system1 배포용 docker image 생성&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# 1. tomcat9:1.0 를 base image로 사용&lt;/span&gt;
-FROM tomcat9:1.0
+&lt;span class=&quot;token comment&quot;&gt;# 1. tomcat9-alpine:1.0 를 base image로 사용&lt;/span&gt;
+FROM tomcat9-alpine:1.0
 
-&lt;span class=&quot;token comment&quot;&gt;# 2. server 설정&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# 2. server 설정 복사&lt;/span&gt;
 COPY ./server-setting/*.* /usr/local/tomcat/conf/
 
-&lt;span class=&quot;token comment&quot;&gt;# 3. 키파일 설정&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# 3. 키파일 복사&lt;/span&gt;
 COPY ./s1-secure/k.md /usr/local/secure/
 
 &lt;span class=&quot;token comment&quot;&gt;# 4. war 복사&lt;/span&gt;
@@ -1046,7 +1077,7 @@ EXPOSE &lt;span class=&quot;token number&quot;&gt;8080&lt;/span&gt;&lt;/code&gt;
     &lt;span class=&quot;token key atrule&quot;&gt;external&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
       &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; nw1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;hr&gt;
-&lt;h2 id=&quot;코드품질관리-sonarqube&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BD%94%EB%93%9C%ED%92%88%EC%A7%88%EA%B4%80%EB%A6%AC-sonarqube&quot; aria-label=&quot;코드품질관리 sonarqube permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;[코드품질관리] sonarqube&lt;/h2&gt;
+&lt;h2 id=&quot;코드정적분석-sonarqube&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BD%94%EB%93%9C%EC%A0%95%EC%A0%81%EB%B6%84%EC%84%9D-sonarqube&quot; aria-label=&quot;코드정적분석 sonarqube permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;[코드정적분석] sonarqube&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.sonarqube.org/&quot;&gt;https://www.sonarqube.org/&lt;/a&gt;  &lt;/li&gt;
 &lt;li&gt;docker : &lt;a href=&quot;https://hub.docker.com/_/sonarqube/&quot;&gt;https://hub.docker.com/_/sonarqube/&lt;/a&gt;&lt;/li&gt;
@@ -1147,4 +1178,5 @@ $ docker run -d -p &lt;span class=&quot;token number&quot;&gt;38081&lt;/span&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;레지스트리 : &lt;a href=&quot;https://novemberde.github.io/2017/04/09/Docker_Registry_0.html&quot;&gt;https://novemberde.github.io/2017/04/09/Docker_Registry_0.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item></channel></rss>
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[about]]></title><description><![CDATA[m9752 Hello World 😀]]></description><link>https://m9752.github.io/resume-en/</link><guid isPermaLink="false">https://m9752.github.io/resume-en/</guid><pubDate>Sat, 20 Feb 2021 16:21:13 GMT</pubDate><content:encoded>&lt;h1 id=&quot;m9752&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#m9752&quot; aria-label=&quot;m9752 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;m9752&lt;/h1&gt;
+&lt;p&gt;Hello World 😀&lt;/p&gt;</content:encoded></item></channel></rss>
