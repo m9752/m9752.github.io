@@ -312,6 +312,7 @@ show variables where Variable_name <span class="token operator">=</span> <span c
     <span class="token key atrule">external</span><span class="token punctuation">:</span>
       <span class="token key atrule">name</span><span class="token punctuation">:</span> nw1</code></pre></div>
 <hr>
+<hr>
 <h2 id="webwas-tomcat" style="position:relative;"><a href="#webwas-tomcat" aria-label="webwas tomcat permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[WEB/WAS] tomcat</h2>
 <ul>
 <li>WAS 서버</li>
@@ -364,8 +365,8 @@ show variables where Variable_name <span class="token operator">=</span> <span c
 <hr>
 <h2 id="webwas-tomcat-경량화" style="position:relative;"><a href="#webwas-tomcat-%EA%B2%BD%EB%9F%89%ED%99%94" aria-label="webwas tomcat 경량화 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[WEB/WAS] tomcat (경량화)</h2>
 <ul>
-<li>jdk <code class="language-text">11</code> 환경에서 동작하는 tomcat <code class="language-text">9</code> 버전</li>
-<li>alpine 기반의 base image를 사용하여 좀 더 경량화시켜 봤습니다.</li>
+<li><code class="language-text">jdk 11</code> 환경에서 동작하는 <code class="language-text">tomcat 9</code> 버전</li>
+<li><code class="language-text">alpine</code> 기반의 base image를 사용하여 좀 더 경량화시켜 봤습니다.</li>
 <li>기존 tomcat9 이미지 668MB, 경량화 이미지 360MB로 절반 가깝게 경량화시켰습니다. 🎉</li>
 </ul>
 <h3 id="생성-4" style="position:relative;"><a href="#%EC%83%9D%EC%84%B1-4" aria-label="생성 4 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>생성</h3>
@@ -557,58 +558,79 @@ EXPOSE <span class="token number">8080</span></code></pre></div>
 <li><a href="https://www.sonarqube.org/">https://www.sonarqube.org/</a>  </li>
 <li>docker : <a href="https://hub.docker.com/_/sonarqube/">https://hub.docker.com/_/sonarqube/</a></li>
 </ul>
-<h3 id="mysql-db-설정" style="position:relative;"><a href="#mysql-db-%EC%84%A4%EC%A0%95" aria-label="mysql db 설정 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>mysql DB 설정</h3>
-<div class="gatsby-highlight" data-language="sql"><pre class="language-sql"><code class="language-sql"><span class="token keyword">CREATE</span> <span class="token keyword">DATABASE</span> sonar <span class="token keyword">CHARACTER</span> <span class="token keyword">SET</span> utf8 <span class="token keyword">COLLATE</span> utf8_bin<span class="token punctuation">;</span> 
-<span class="token keyword">CREATE</span> <span class="token keyword">USER</span> <span class="token string">'sonar'</span><span class="token variable">@'%'</span> identified <span class="token keyword">by</span> <span class="token string">'&lt;password>'</span><span class="token punctuation">;</span>
-<span class="token keyword">CREATE</span> <span class="token keyword">USER</span> <span class="token string">'sonar'</span><span class="token variable">@'localhost'</span> identified <span class="token keyword">by</span> <span class="token string">'&lt;password>'</span><span class="token punctuation">;</span>
-<span class="token keyword">GRANT</span> <span class="token keyword">ALL</span> <span class="token keyword">PRIVILEGES</span> <span class="token keyword">ON</span> sonar<span class="token punctuation">.</span><span class="token operator">*</span> <span class="token keyword">TO</span> <span class="token string">'sonar'</span><span class="token variable">@'%'</span> identified <span class="token keyword">by</span> <span class="token string">'&lt;password>'</span><span class="token punctuation">;</span>
-<span class="token keyword">GRANT</span> <span class="token keyword">ALL</span> <span class="token keyword">PRIVILEGES</span> <span class="token keyword">ON</span> sonar<span class="token punctuation">.</span><span class="token operator">*</span> <span class="token keyword">TO</span> <span class="token string">'sonar'</span><span class="token variable">@'localhost'</span> identified <span class="token keyword">by</span> <span class="token string">'&lt;password>'</span><span class="token punctuation">;</span>
-<span class="token keyword">commit</span><span class="token punctuation">;</span>
+<h3 id="docker-설치전-필요한-값-설정" style="position:relative;"><a href="#docker-%EC%84%A4%EC%B9%98%EC%A0%84-%ED%95%84%EC%9A%94%ED%95%9C-%EA%B0%92-%EC%84%A4%EC%A0%95" aria-label="docker 설치전 필요한 값 설정 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>docker 설치전 필요한 값 설정</h3>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">$ sysctl -w vm.max_map_count<span class="token operator">=</span><span class="token number">262144</span>
+$ sysctl -w fs.file-max<span class="token operator">=</span><span class="token number">65536</span>
+$ <span class="token builtin class-name">ulimit</span> -n <span class="token number">65536</span>
+$ <span class="token builtin class-name">ulimit</span> -u <span class="token number">4096</span></code></pre></div>
+<h3 id="생성-7" style="position:relative;"><a href="#%EC%83%9D%EC%84%B1-7" aria-label="생성 7 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>생성</h3>
+<ul>
+<li>docker-compose</li>
+</ul>
+<div class="gatsby-highlight" data-language="yml"><pre class="language-yml"><code class="language-yml"><span class="token key atrule">version</span><span class="token punctuation">:</span> <span class="token string">"3.1"</span>
 
-<span class="token comment">-- 확인</span>
-<span class="token keyword">select</span> <span class="token operator">*</span> <span class="token keyword">from</span> <span class="token keyword">user</span><span class="token punctuation">;</span>  
-<span class="token keyword">select</span> <span class="token operator">*</span> <span class="token keyword">from</span> db<span class="token punctuation">;</span>
+<span class="token key atrule">services</span><span class="token punctuation">:</span>
+  <span class="token key atrule">sonarqube</span><span class="token punctuation">:</span>
+    <span class="token key atrule">image</span><span class="token punctuation">:</span> sonarqube<span class="token punctuation">:</span>8.7.1<span class="token punctuation">-</span>community
+    <span class="token key atrule">container_name</span><span class="token punctuation">:</span> sonarqube
+    <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token string">"29000:9000"</span>
+      <span class="token punctuation">-</span> <span class="token string">"29092:9092"</span>
+    <span class="token key atrule">environment</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> SONARQUBE_HOME=/opt/sonarqube
+      <span class="token punctuation">-</span> SONARQUBE_JDBC_USERNAME=sonar
+      <span class="token punctuation">-</span> SONARQUBE_JDBC_PASSWORD=sonar
+      <span class="token punctuation">-</span> SONARQUBE_JDBC_URL=jdbc<span class="token punctuation">:</span>postgresql<span class="token punctuation">:</span>//db<span class="token punctuation">:</span>5432/sonar
+    <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> /home/test/docker/sonarqube/conf<span class="token punctuation">:</span>/opt/sonarqube/conf
+      <span class="token punctuation">-</span> /home/test/docker/sonarqube/data<span class="token punctuation">:</span>/opt/sonarqube/data
+      <span class="token punctuation">-</span> /home/test/docker/sonarqube/logs<span class="token punctuation">:</span>/opt/sonarqube/logs
+      <span class="token punctuation">-</span> /home/test/docker/sonarqube/extensions<span class="token punctuation">:</span>/opt/sonarqube/extensions
 
-<span class="token comment">-- 패스워드 변경</span>
-<span class="token keyword">UPDATE</span> mysql<span class="token punctuation">.</span><span class="token keyword">user</span> <span class="token keyword">SET</span> authentication_string<span class="token operator">=</span>PASSWORD<span class="token punctuation">(</span><span class="token string">'&lt;password>'</span><span class="token punctuation">)</span> <span class="token keyword">WHERE</span> <span class="token keyword">user</span><span class="token operator">=</span><span class="token string">'sonar'</span><span class="token punctuation">;</span>
-FLUSH <span class="token keyword">PRIVILEGES</span><span class="token punctuation">;</span>
-<span class="token keyword">commit</span><span class="token punctuation">;</span></code></pre></div>
-<h3 id="컨테이너-생성-2" style="position:relative;"><a href="#%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88-%EC%83%9D%EC%84%B1-2" aria-label="컨테이너 생성 2 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>컨테이너 생성</h3>
-<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">$ docker run -d --name sonarqube <span class="token punctuation">\</span>
-    --net<span class="token operator">=</span>nw1 <span class="token punctuation">\</span> 
-    -p <span class="token number">49000</span>:9000 -p <span class="token number">49092</span>:9092 <span class="token punctuation">\</span>
-    -e <span class="token assign-left variable">SONARQUBE_JDBC_USERNAME</span><span class="token operator">=</span>sonar <span class="token punctuation">\</span>
-    -e <span class="token assign-left variable">SONARQUBE_JDBC_PASSWORD</span><span class="token operator">=</span><span class="token operator">&lt;</span>password<span class="token operator">></span> <span class="token punctuation">\</span>
-    -e <span class="token assign-left variable">SONARQUBE_JDBC_URL</span><span class="token operator">=</span><span class="token string">'jdbc:mysql://localhost:3306/sonar?useUnicode=true&amp;characterEncoding=utf8&amp;rewriteBatchedStatements=true&amp;useConfigs=maxPerformance'</span> <span class="token punctuation">\</span>
-    sonarqube</code></pre></div>
+  <span class="token key atrule">db</span><span class="token punctuation">:</span>
+    <span class="token key atrule">image</span><span class="token punctuation">:</span> postgres
+    <span class="token key atrule">container_name</span><span class="token punctuation">:</span> postgres
+    <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token string">"5432:5432"</span>
+    <span class="token key atrule">environment</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> POSTGRES_USER=sonar
+      <span class="token punctuation">-</span> POSTGRES_PASSWORD=sonar
+    <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> /home/test/docker/sonarqube/postgres<span class="token punctuation">:</span>/var/lib/postgresql/data
+
+<span class="token key atrule">networks</span><span class="token punctuation">:</span>
+  <span class="token key atrule">default</span><span class="token punctuation">:</span>
+    <span class="token key atrule">external</span><span class="token punctuation">:</span>
+      <span class="token key atrule">name</span><span class="token punctuation">:</span> nw1</code></pre></div>
 <h3 id="sonar-scannerproperties" style="position:relative;"><a href="#sonar-scannerproperties" aria-label="sonar scannerproperties permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>sonar-scanner.properties</h3>
+<ul>
+<li>sonar-scanner 설치 디렉토리에 위치</li>
+</ul>
 <div class="gatsby-highlight" data-language="properties"><pre class="language-properties"><code class="language-properties"><span class="token comment">#Configure here general information about the environment, such as SonarQube server connection details for example</span>
 <span class="token comment">#No information about specific project should appear here</span>
-<span class="token comment">#----- Default SonarQube server</span>
+<span class="token comment"># Default SonarQube server</span>
 <span class="token attr-name">sonar.host.url</span><span class="token punctuation">=</span><span class="token attr-value">http://localhost:9000</span>
 
-<span class="token comment">#----- Default source code encoding</span>
+<span class="token comment"># Default source code encoding</span>
 <span class="token attr-name">sonar.sourceEncoding</span><span class="token punctuation">=</span><span class="token attr-value">UTF-8</span>
 
 <span class="token attr-name">sonar.login</span><span class="token punctuation">=</span><span class="token attr-value">admin</span>
 <span class="token attr-name">sonar.password</span><span class="token punctuation">=</span><span class="token attr-value">&lt;admin 패스워드></span></code></pre></div>
 <h3 id="sonar-projectproperties" style="position:relative;"><a href="#sonar-projectproperties" aria-label="sonar projectproperties permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>sonar-project.properties</h3>
-<div class="gatsby-highlight" data-language="properties"><pre class="language-properties"><code class="language-properties"><span class="token comment"># must be unique in a given SonarQube instance</span>
-<span class="token attr-name">sonar.projectKey</span><span class="token punctuation">=</span><span class="token attr-value">solution:&lt;SonarQube instance ID></span>
-
-<span class="token comment"># this is the name and version displayed in the SonarQube UI. Was mandatory prior to SonarQube 6.1.</span>
+<ul>
+<li>보통 프로젝트 루트에 위치</li>
+</ul>
+<div class="gatsby-highlight" data-language="properties"><pre class="language-properties"><code class="language-properties"><span class="token attr-name">sonar.login</span><span class="token punctuation">=</span><span class="token attr-value">&lt;sonarqube token 또는 project token></span>
+<span class="token attr-name">sonar.projectKey</span><span class="token punctuation">=</span><span class="token attr-value">&lt;프로젝트키></span>
 <span class="token attr-name">sonar.projectName</span><span class="token punctuation">=</span><span class="token attr-value">&lt;프로젝트명></span>
 <span class="token attr-name">sonar.projectVersion</span><span class="token punctuation">=</span><span class="token attr-value">&lt;버전></span>
  
-<span class="token comment"># Path is relative to the sonar-project.properties file. Replace "\" by "/" on Windows.</span>
-<span class="token comment"># This property is optional if sonar.modules is set. </span>
-<span class="token attr-name">sonar.sources</span><span class="token punctuation">=</span><span class="token attr-value">.</span>
-<span class="token attr-name">sonar.java.binaries</span><span class="token punctuation">=</span><span class="token attr-value">./target/classes</span>
- 
-<span class="token comment"># Encoding of the source code. Default is default system encoding</span>
+<span class="token attr-name">sonar.sources</span><span class="token punctuation">=</span><span class="token attr-value">src/main/java</span>
+<span class="token attr-name">sonar.java.binaries</span><span class="token punctuation">=</span><span class="token attr-value">target/classes</span>
+
 <span class="token attr-name">sonar.sourceEncoding</span><span class="token punctuation">=</span><span class="token attr-value">UTF-8</span></code></pre></div>
 <h3 id="sonar-scanner-실행" style="position:relative;"><a href="#sonar-scanner-%EC%8B%A4%ED%96%89" aria-label="sonar scanner 실행 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>sonar-scanner 실행</h3>
-<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token comment"># sonar-project.properties 있는 위치에서 실행 : 보통 프로젝트 최상위 디렉토리</span>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token comment"># sonar-project.properties 있는 위치에서 실행</span>
 $ sonar-scanner -X -Dsonar.java.binaries<span class="token operator">=</span>./target/classes
 $ sonar-scanner -X</code></pre></div>
 <hr>
@@ -616,7 +638,7 @@ $ sonar-scanner -X</code></pre></div>
 <ul>
 <li>문서관리 솔루션 : <a href="https://www.xwiki.org/">https://www.xwiki.org/</a></li>
 </ul>
-<h3 id="생성-7" style="position:relative;"><a href="#%EC%83%9D%EC%84%B1-7" aria-label="생성 7 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>생성</h3>
+<h3 id="생성-8" style="position:relative;"><a href="#%EC%83%9D%EC%84%B1-8" aria-label="생성 8 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>생성</h3>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">$ docker run --net=nw1 --name xwiki -p 28080:8080 -v /home/test/xwiki/data:/usr/local/xwiki -e DB_USER=xwiki -e DB_PASSWORD=xwiki -e DB_DATABASE=xwiki -e DB_HOST=mysql xwiki:mysql-tomcat</code></pre></div>
 <hr>
 <h2 id="repository-nexus" style="position:relative;"><a href="#repository-nexus" aria-label="repository nexus permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[repository] nexus</h2>
@@ -624,7 +646,7 @@ $ sonar-scanner -X</code></pre></div>
 <li>사설 저장소 : <a href="https://www.sonatype.com/nexus/repository-oss?topnav=true">https://www.sonatype.com/nexus/repository-oss?topnav=true</a></li>
 <li>maven 라이브러리 저장소로 사용</li>
 </ul>
-<h3 id="생성-8" style="position:relative;"><a href="#%EC%83%9D%EC%84%B1-8" aria-label="생성 8 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>생성</h3>
+<h3 id="생성-9" style="position:relative;"><a href="#%EC%83%9D%EC%84%B1-9" aria-label="생성 9 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>생성</h3>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token comment"># 디렉토리 생성 및 권한 설정</span>
 $ <span class="token function">mkdir</span> -p /home/test/nexus/sonatype-work <span class="token operator">&amp;&amp;</span> <span class="token function">sudo</span> <span class="token function">chown</span> -R <span class="token number">200</span> /home/test/nexus/sonatype-work
 
