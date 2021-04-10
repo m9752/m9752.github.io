@@ -1,8 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[docker memo]]></title><description><![CDATA[memo]]></description><link>https://m9752.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 31 Mar 2021 13:03:23 GMT</lastBuildDate><item><title><![CDATA[5️⃣ system1]]></title><description><![CDATA[테스트 프로젝트 테스트를 위한 Spring Boot 기반의 (간단한) 웹프로젝트입니다. Github : https://github.com/m9752/system1-boot 특징 테스트 용도라 기능이 크게 없습니다. 😌  기반입니다. Spring…]]></description><link>https://m9752.github.io/development/system1/</link><guid isPermaLink="false">https://m9752.github.io/development/system1/</guid><pubDate>Sun, 28 Mar 2021 16:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;테스트-프로젝트&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%85%8C%EC%8A%A4%ED%8A%B8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8&quot; aria-label=&quot;테스트 프로젝트 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;테스트 프로젝트&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[docker memo]]></title><description><![CDATA[memo]]></description><link>https://m9752.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 10 Apr 2021 12:19:42 GMT</lastBuildDate><item><title><![CDATA[4️⃣ system1]]></title><description><![CDATA[테스트 프로젝트 테스트를 위한 Spring Boot 기반의 (간단한) 웹프로젝트입니다. Github : https://github.com/m9752/system1-boot Demo Docker…]]></description><link>https://m9752.github.io/development/system1/</link><guid isPermaLink="false">https://m9752.github.io/development/system1/</guid><pubDate>Sun, 28 Mar 2021 16:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;테스트-프로젝트&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%85%8C%EC%8A%A4%ED%8A%B8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8&quot; aria-label=&quot;테스트 프로젝트 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;테스트 프로젝트&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;테스트를 위한 Spring Boot 기반의 (간단한) 웹프로젝트입니다.&lt;/li&gt;
 &lt;li&gt;Github : &lt;a href=&quot;https://github.com/m9752/system1-boot&quot;&gt;https://github.com/m9752/system1-boot&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&quot;demo&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#demo&quot; aria-label=&quot;demo permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Demo&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Docker로 테스트할 수 있습니다. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 네트워크 생성&lt;/span&gt;
+$ docker network create -d bridge nw1
+
+&lt;span class=&quot;token comment&quot;&gt;# postgreSQL db&lt;/span&gt;
+$ docker run -d --name postgres-hub -p &lt;span class=&quot;token number&quot;&gt;15432&lt;/span&gt;:5432 --network&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;nw1 m9752/postgres:0.9
+&lt;span class=&quot;token comment&quot;&gt;# system1&lt;/span&gt;
+$ docker run -d --name system1-hub -p &lt;span class=&quot;token number&quot;&gt;19081&lt;/span&gt;:8080 --network&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;nw1 m9752/system1:1.0&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2 id=&quot;특징&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%8A%B9%EC%A7%95&quot; aria-label=&quot;특징 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;특징&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;테스트 용도라 기능이 크게 없습니다. 😌&lt;/li&gt;
@@ -409,13 +420,23 @@
     &lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;docker stop system1-hub
+docker &lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; system1-hub
+
+docker build --tag m9752/system1:1.0 &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;
+docker run -d --name system1-hub -p &lt;span class=&quot;token number&quot;&gt;19081&lt;/span&gt;:8080 --network&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;nw1 m9752/system1:1.0
+docker push m9752/system1:1.0
+
+docker rmi &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;docker images -f &lt;span class=&quot;token string&quot;&gt;&quot;dangling=true&quot;&lt;/span&gt; -q&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;docker private repository (로컬) 사용할 경우&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;보안 등의 이유로 외부 인터넷망에 접근할 수 없을 경우 docker 사설 저장소를 만들어 사용합니다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
+&lt;/ol&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;docker stop system1
 docker &lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; system1
 
@@ -760,9 +781,12 @@ $ docker-compose down
 &lt;span class=&quot;token comment&quot;&gt;## docker build&lt;/span&gt;
 $ docker build --tag m9752/system1:1.0 &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;
 
+&lt;span class=&quot;token comment&quot;&gt;## docker commit&lt;/span&gt;
+$ docker commit &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;컨테이너명&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;생성할_이미지명&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+
 &lt;span class=&quot;token comment&quot;&gt;## docker hub push&lt;/span&gt;
 $ docker push m9752/system1:1.0&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3 id=&quot;docker-네트워크-생성&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#docker-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%83%9D%EC%84%B1&quot; aria-label=&quot;docker 네트워크 생성 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;docker 네트워크 생성&lt;/h3&gt;
+&lt;h3 id=&quot;docker-네트워크-생성&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#docker-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%83%9D%EC%84%B1&quot; aria-label=&quot;docker 네트워크 생성 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Docker 네트워크 생성&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;컨테이너끼리 통신하기 위한 네트워크 nw1 를 생성합니다.&lt;/li&gt;
 &lt;/ul&gt;
@@ -770,6 +794,18 @@ $ docker push m9752/system1:1.0&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;span class=&quot;token comment&quot;&gt;# network 정보 확인&lt;/span&gt;
 $ docker network inspect nw1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;docker-이미지컨테이너-백업복구&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#docker-%EC%9D%B4%EB%AF%B8%EC%A7%80%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88-%EB%B0%B1%EC%97%85%EB%B3%B5%EA%B5%AC&quot; aria-label=&quot;docker 이미지컨테이너 백업복구 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Docker 이미지/컨테이너 백업/복구&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 현재 컨테이너를 이미지로 commit&lt;/span&gt;
+$ docker commit postgres-hub m9752/postgres:0.9
+&lt;span class=&quot;token comment&quot;&gt;# 이미지를 파일로 저장&lt;/span&gt;
+$ docker save -o postgres.tar m9752/postgres:0.9
+&lt;span class=&quot;token comment&quot;&gt;# 저장된 이미지 불러오기 -&gt; 컨테이너 생성하여 사용&lt;/span&gt;
+$ docker load -i postgres.tar
+
+&lt;span class=&quot;token comment&quot;&gt;# 컨테이너 export&lt;/span&gt;
+$ docker &lt;span class=&quot;token builtin class-name&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;컨테이너명/컨테이너ID&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; xxx.tar
+&lt;span class=&quot;token comment&quot;&gt;# 컨테이너 import&lt;/span&gt;
+$ docker &lt;span class=&quot;token function&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;파일명/URL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;hr&gt;
 &lt;h2 id=&quot;code-classlanguage-textdbcode-oracle-11g&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#code-classlanguage-textdbcode-oracle-11g&quot; aria-label=&quot;code classlanguage textdbcode oracle 11g permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;code class=&quot;language-text&quot;&gt;DB&lt;/code&gt; Oracle 11g&lt;/h2&gt;
 &lt;ul&gt;
